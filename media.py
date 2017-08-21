@@ -4,7 +4,8 @@
 class Movie():
     # This class provides a way to store movie related information
 
-    def __init__(self, movie_title, movie_release_date, movie_starring, movie_poster, movie_trailer):
+    def __init__(self, movie_title, movie_release_date, movie_starring,
+                 movie_poster, movie_trailer):
         # initialize instance of class Movie
         self.title = movie_title
         self.release_date = movie_release_date
